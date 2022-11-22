@@ -155,7 +155,105 @@ MonoBehaviour:
   allRoundData:
   - name: Round 1
     timeLimitInSeconds: 30
+    pointsAddedForCorrectAnswer: 15
+    questions:
+    - questionText: 'There is a function myMethod() in the files of type void. To
+        run this function we call: '
+      answers:
+      - answerText: void myMethod()
+        isCorrect: 0
+      - answerText: ' void myMethod();'
+        isCorrect: 0
+      - answerText: myMethod;
+        isCorrect: 0
+      - answerText: myMethod();
+        isCorrect: 1
+    - questionText: 'What is the output of the following: int x = 7; x++; x++; x
+        += 7;System.out.print(x);'
+      answers:
+      - answerText: 16
+        isCorrect: 1
+      - answerText: 14
+        isCorrect: 0
+      - answerText: 9
+        isCorrect: 0
+      - answerText: 7
+        isCorrect: 0
+    - questionText: 'A valid statement to declare and initialize an array _____ '
+      answers:
+      - answerText: 'int[] arr = [2, 4, 10]; '
+        isCorrect: 0
+      - answerText: int[] arr = (2, 4, 10);
+        isCorrect: 0
+      - answerText: int[] arr = {2, 4, 10};
+        isCorrect: 1
+      - answerText: int arr = {2, 4, 10};
+        isCorrect: 0
+    - questionText: "What is the output of the following: String str1 = \u201CHello\u201D;
+        String str2 = \u201CWorld\u201D; System.out.print(str1.concat(str1)); "
+      answers:
+      - answerText: HelloWorld
+        isCorrect: 0
+      - answerText: HelloHello
+        isCorrect: 1
+      - answerText: Hello
+        isCorrect: 0
+      - answerText: World
+        isCorrect: 0
+    - questionText: 'What is the output of the following: int num = 100; System.out.print(num++); '
+      answers:
+      - answerText: 101
+        isCorrect: 0
+      - answerText: 100
+        isCorrect: 1
+      - answerText: 99
+        isCorrect: 0
+      - answerText: Error
+        isCorrect: 0
+  - name: Round 2
+    timeLimitInSeconds: 30
     pointsAddedForCorrectAnswer: 10
+    questions:
+    - questionText: 'Function to print a line after printing an argument on the console
+        _____ '
+      answers:
+      - answerText: print
+        isCorrect: 0
+      - answerText: printf
+        isCorrect: 0
+      - answerText: println
+        isCorrect: 1
+      - answerText: printline
+        isCorrect: 0
+    - questionText: 'What is the output of the following: int x = 024; System.out.print(x);'
+      answers:
+      - answerText: 24
+        isCorrect: 0
+      - answerText: 024
+        isCorrect: 0
+      - answerText: 20
+        isCorrect: 1
+      - answerText: -24
+        isCorrect: 0
+  - name: Round 3
+    timeLimitInSeconds: 30
+    pointsAddedForCorrectAnswer: 20
+    questions:
+    - questionText: 'Finish the function to sum the value of the array numArray.
+        int numArray[] =  {2, 4, 7, 3, 4, 2}; int sum = 0; for (int i : ____ ) sum
+        += i;'
+      answers:
+      - answerText: numArray[]
+        isCorrect: 0
+      - answerText: numArray
+        isCorrect: 1
+      - answerText: i < 6; i++
+        isCorrect: 0
+      - answerText: '{2, 4, 7, 3, 4, 2}'
+        isCorrect: 0
+  - name: Round 4
+    timeLimitInSeconds: 30
+    pointsAddedForCorrectAnswer: 5
     questions:
     - questionText: Do pineapples belong on pizza?
       answers:
