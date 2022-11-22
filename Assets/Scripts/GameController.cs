@@ -21,6 +21,7 @@ public class GameController : MonoBehaviour {
 
     private bool isRoundActive;
     private float timeRemaining;
+    private int totalTime;
     private int questionIndex;
     private int playerScore;
     private List<GameObject> answerButtonGameObjects = new List<GameObject>();
@@ -32,6 +33,7 @@ public class GameController : MonoBehaviour {
         currentRoundData = dataController.GetCurrentRoundData ();
         questionPool = currentRoundData.questions;
         timeRemaining = currentRoundData.timeLimitInSeconds;
+        totalTime = currentRoundData.timeLimitInSeconds;
         UpdateTimeRemainingDisplay();
 
         playerScore = 0;
@@ -78,6 +80,9 @@ public class GameController : MonoBehaviour {
 
         if (questionPool.Length > questionIndex + 1) {
             questionIndex++;
+            //reset time per each question
+            timeRemaining = totalTime;
+            timeRemainingDisplayText.text = "Time: " + timeRemaining.ToString();
             ShowQuestion ();
         } else 
         {
