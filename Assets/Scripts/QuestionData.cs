@@ -5,5 +5,11 @@ using System.Collections;
 public class QuestionData 
 {
     public string questionText;
+    public string evaluationText;
     public AnswerData[] answers;
+
+    void start()
+    {
+
+    }
 }
