@@ -9,6 +9,8 @@ public class GameController : MonoBehaviour {
 
     public Text questionDisplayText;
     public Text scoreDisplayText;
+    public Text levelDisplayText;
+    public Text evaluationText;
     public Text timeRemainingDisplayText;
     public SimpleObjectPool answerButtonObjectPool;
     public Transform answerButtonParent;
@@ -18,6 +20,7 @@ public class GameController : MonoBehaviour {
     private DataController dataController;
     private RoundData currentRoundData;
     private QuestionData[] questionPool;
+    private string evalText = "";
 
     private bool isRoundActive;
     private float timeRemaining;
@@ -35,6 +38,7 @@ public class GameController : MonoBehaviour {
         timeRemaining = currentRoundData.timeLimitInSeconds;
         totalTime = currentRoundData.timeLimitInSeconds;
         UpdateTimeRemainingDisplay();
+        UpdateCurrentLevelDisplay();
 
         playerScore = 0;
         questionIndex = 0;
@@ -48,7 +52,11 @@ public class GameController : MonoBehaviour {
     {
         RemoveAnswerButtons ();
         QuestionData questionData = questionPool [questionIndex];
-        questionDisplayText.text = questionData.questionText;
+    
+        string tempText = questionData.questionText;
+        tempText.Replace("<BR>", "\n");
+        questionDisplayText.text = tempText;
+        //questionDisplayText.text.Replace("<BR>", "\n");
 
         for (int i = 0; i < questionData.answers.Length; i++) 
         {
@@ -76,6 +84,9 @@ public class GameController : MonoBehaviour {
         {
             playerScore += currentRoundData.pointsAddedForCorrectAnswer;
             scoreDisplayText.text = "Score: " + playerScore.ToString();
+        } else {
+            QuestionData questionData = questionPool [questionIndex]; //get current question
+            evalText = evalText + questionData.evaluationText + "\n";
         }
 
         if (questionPool.Length > questionIndex + 1) {
@@ -86,7 +97,8 @@ public class GameController : MonoBehaviour {
             ShowQuestion ();
         } else 
         {
-            EndRound();
+            //EndRound();
+            Invoke("goToNextRound", 0.25f);
         }
 
     }
@@ -94,9 +106,33 @@ public class GameController : MonoBehaviour {
     public void EndRound()
     {
         isRoundActive = false;
+        dataController.resetRound();
 
         questionDisplay.SetActive (false);
+        evaluationText.text = evalText;
         roundEndDisplay.SetActive (true);
+    }
+
+    //go to the next round
+    public void goToNextRound()
+    {
+        int index = dataController.incrementRound();
+        Debug.Log(index);
+        if(index == -1)
+        {
+            EndRound();
+        }
+        else
+        {
+            currentRoundData = dataController.GetCurrentRoundData ();
+            questionPool = currentRoundData.questions;
+            timeRemaining = currentRoundData.timeLimitInSeconds;
+            totalTime = currentRoundData.timeLimitInSeconds;
+            UpdateTimeRemainingDisplay(); 
+            UpdateCurrentLevelDisplay();  
+            ShowQuestion();
+        }
+        
     }
 
     public void ReturnToMenu()
@@ -123,5 +159,10 @@ public class GameController : MonoBehaviour {
             }
 
         }
+    }
+
+    void UpdateCurrentLevelDisplay()
+    {
+        levelDisplayText.text = "Level: " + (dataController.getRoundIndex() + 1);
     }
 }
