@@ -159,7 +159,7 @@ MonoBehaviour:
     questions:
     - questionText: 'Function to print a line after printing an argument on the console
         _____ '
-      evaluationText: Function to print a line after printing an argument on the
+      evaluationText: 1) Function to print a line after printing an argument on the
         console println. The println function prints out its argument to the console
         as a string and adds a next line character (\n) afterwards.
       answers:
@@ -173,7 +173,7 @@ MonoBehaviour:
         isCorrect: 0
     - questionText: 'What is the output of the following: int x = 7; x++; x++; x
         += 7;System.out.print(x);'
-      evaluationText: '16. Explanation: x++ increments x by 1 whereas x += 7 adds
+      evaluationText: '2) 16. Explanation: x++ increments x by 1 whereas x += 7 adds
         7 to the integer x.'
       answers:
       - answerText: 16
@@ -185,7 +185,7 @@ MonoBehaviour:
       - answerText: 7
         isCorrect: 0
     - questionText: A valid statement to declare and initialize an array _____
-      evaluationText: int[] arr = {2, 4, 10}; int[ ] declares the array arr, and
+      evaluationText: 3) int[] arr = {2, 4, 10}; int[ ] declares the array arr, and
         values to be inputted are to be enclosed in curly brackets.
       answers:
       - answerText: ' int[] arr = [2, 4, 10];'
@@ -198,8 +198,8 @@ MonoBehaviour:
         isCorrect: 0
     - questionText: "What is the output of the following: String str1 = \u201CHello\u201D;
         String str2 = \u201CWorld\u201D; System.out.print(str1.concat(str1));"
-      evaluationText: "This code outputs the concatenation of str1 with itself, thus
-        yielding \u201CHelloHello\u201D"
+      evaluationText: "4) This code outputs the concatenation of str1 with itself,
+        thus yielding \u201CHelloHello\u201D"
       answers:
       - answerText: HelloWorld
         isCorrect: 0
@@ -210,8 +210,8 @@ MonoBehaviour:
       - answerText: World
         isCorrect: 0
     - questionText: 'What is the output of the following: int num = 100; System.out.print(num++);'
-      evaluationText: variable++ increments variable AFTER the line, thus when the
-        print function is called, num is outputted as 100, then added 1 after.
+      evaluationText: 5) variable++ increments variable AFTER the line, thus when
+        the print function is called, num is outputted as 100, then added 1 after.
       answers:
       - answerText: 101
         isCorrect: 0
@@ -222,7 +222,7 @@ MonoBehaviour:
       - answerText: Error
         isCorrect: 0
     - questionText: Java is a _____ programming language.
-      evaluationText: Java is both procedural and object-oriented as it is a hybrid
+      evaluationText: 6) Java is both procedural and object-oriented as it is a hybrid
         language that supports both types of programming.
       answers:
       - answerText: Procedural and object-oriented
@@ -235,7 +235,7 @@ MonoBehaviour:
         isCorrect: 0
     - questionText: x and y are two integers, what is the correct way of casting
         an int into a float.
-      evaluationText: float z = (float) x / y; is correct as to cast an int into
+      evaluationText: 7) float z = (float) x / y; is correct as to cast an int into
         a float (float) is to be added next to an integer variable or calculation
         of integer variables.
       answers:
@@ -248,9 +248,9 @@ MonoBehaviour:
       - answerText: float z = (float) x / y;
         isCorrect: 1
     - questionText: What is the correct way of declaring a variable?
-      evaluationText: type variablename = value; is correct as this specifies the
-        variable type, assigns a name to the variable and assigns a value to  the
-        variable
+      evaluationText: 8) type variablename = value; is correct as this specifies
+        the variable type, assigns a name to the variable and assigns a value to 
+        the variable
       answers:
       - answerText: varname = value;
         isCorrect: 0
@@ -261,8 +261,8 @@ MonoBehaviour:
       - answerText: type varname value;
         isCorrect: 0
     - questionText: How many bits are present in an int data type in Java?
-      evaluationText: "Java's integer data type is a 32-bit signed two\u2019s complement
-        integer."
+      evaluationText: "9) Java's integer data type is a 32-bit signed two\u2019s
+        complement integer."
       answers:
       - answerText: 32 bits
         isCorrect: 1
@@ -274,8 +274,8 @@ MonoBehaviour:
         isCorrect: 0
     - questionText: In order for a function to be usable globally, what modifier
         should be assigned to the function?
-      evaluationText: Public allows the usage of the function outside of the class,
-        outside of the package, and outside of its subclass, globally.
+      evaluationText: 10) Public allows the usage of the function outside of the
+        class, outside of the package, and outside of its subclass, globally.
       answers:
       - answerText: No modifier
         isCorrect: 0

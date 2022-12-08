@@ -13,8 +13,7 @@ public class PauseResume : MonoBehaviour
         pauseModeObjects = GameObject.FindGameObjectsWithTag("ShowWhenPaused");
         resumeModeObjects = GameObject.FindGameObjectsWithTag("ShowWhenResumed");
 
-        foreach (GameObject g in pauseModeObjects)
-            g.SetActive(false);
+        Resume();
     }
 
     // Update is called once per frame
