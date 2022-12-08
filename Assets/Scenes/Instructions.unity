@@ -802,19 +802,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '
-
-    1. Click on the correct answer to score points.
-
-
-    2. Answering
-    questions faster yield more points
-
-
-    3. Answering wrong would lose you a
-    life. You have 3 lives, good luck!
-
-'
+  m_text: "\n1. Click on the correct answer to score points.\n\n2. Answering questions
+    faster yield more points.\n\n3. Don't worry about being wrong! You will be given\n  
+    an evaluation at the end to see why a question\n   has a certain answer.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f0faa8d106fb75d438ad6b486b6ce8c2, type: 2}
   m_sharedMaterial: {fileID: -6012650965668713533, guid: f0faa8d106fb75d438ad6b486b6ce8c2, type: 2}

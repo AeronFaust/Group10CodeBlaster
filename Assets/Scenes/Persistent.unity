@@ -155,73 +155,13 @@ MonoBehaviour:
   allRoundData:
   - name: Round 1
     timeLimitInSeconds: 30
-    pointsAddedForCorrectAnswer: 15
-    questions:
-    - questionText: 'There is a function myMethod() in the files of type void. <BR>
-        To run this function we call: '
-      evaluationText: I like ponies
-      answers:
-      - answerText: void myMethod()
-        isCorrect: 0
-      - answerText: ' void myMethod();'
-        isCorrect: 0
-      - answerText: myMethod;
-        isCorrect: 0
-      - answerText: myMethod();
-        isCorrect: 1
-    - questionText: 'What is the output of the following: int x = 7; x++; x++; x
-        += 7;System.out.print(x);'
-      evaluationText: I like poines
-      answers:
-      - answerText: 16
-        isCorrect: 1
-      - answerText: 14
-        isCorrect: 0
-      - answerText: 9
-        isCorrect: 0
-      - answerText: 7
-        isCorrect: 0
-    - questionText: 'A valid statement to declare and initialize an array _____ '
-      evaluationText: I like ponies
-      answers:
-      - answerText: 'int[] arr = [2, 4, 10]; '
-        isCorrect: 0
-      - answerText: int[] arr = (2, 4, 10);
-        isCorrect: 0
-      - answerText: int[] arr = {2, 4, 10};
-        isCorrect: 1
-      - answerText: int arr = {2, 4, 10};
-        isCorrect: 0
-    - questionText: "What is the output of the following: String str1 = \u201CHello\u201D;
-        String str2 = \u201CWorld\u201D; System.out.print(str1.concat(str1)); "
-      evaluationText: I like pones
-      answers:
-      - answerText: HelloWorld
-        isCorrect: 0
-      - answerText: HelloHello
-        isCorrect: 1
-      - answerText: Hello
-        isCorrect: 0
-      - answerText: World
-        isCorrect: 0
-    - questionText: 'What is the output of the following: int num = 100; System.out.print(num++); '
-      evaluationText: 
-      answers:
-      - answerText: 101
-        isCorrect: 0
-      - answerText: 100
-        isCorrect: 1
-      - answerText: 99
-        isCorrect: 0
-      - answerText: Error
-        isCorrect: 0
-  - name: Round 2
-    timeLimitInSeconds: 30
     pointsAddedForCorrectAnswer: 10
     questions:
     - questionText: 'Function to print a line after printing an argument on the console
         _____ '
-      evaluationText: 
+      evaluationText: Function to print a line after printing an argument on the
+        console println. The println function prints out its argument to the console
+        as a string and adds a next line character (\n) afterwards.
       answers:
       - answerText: print
         isCorrect: 0
@@ -231,45 +171,120 @@ MonoBehaviour:
         isCorrect: 1
       - answerText: printline
         isCorrect: 0
-    - questionText: 'What is the output of the following: int x = 024; System.out.print(x);'
-      evaluationText: 
+    - questionText: 'What is the output of the following: int x = 7; x++; x++; x
+        += 7;System.out.print(x);'
+      evaluationText: '16. Explanation: x++ increments x by 1 whereas x += 7 adds
+        7 to the integer x.'
       answers:
-      - answerText: 24
-        isCorrect: 0
-      - answerText: 024
-        isCorrect: 0
-      - answerText: 20
+      - answerText: 16
         isCorrect: 1
-      - answerText: -24
+      - answerText: 14
         isCorrect: 0
-  - name: Round 3
-    timeLimitInSeconds: 30
-    pointsAddedForCorrectAnswer: 20
-    questions:
-    - questionText: 'Finish the function to sum the value of the array numArray.
-        int numArray[] =  {2, 4, 7, 3, 4, 2}; int sum = 0; for (int i : ____ ) sum
-        += i;'
-      evaluationText: 
+      - answerText: 9
+        isCorrect: 0
+      - answerText: 7
+        isCorrect: 0
+    - questionText: A valid statement to declare and initialize an array _____
+      evaluationText: int[] arr = {2, 4, 10}; \n int[] declares the array arr, and
+        values to be inputted are to be enclosed in curly brackets.
       answers:
-      - answerText: numArray[]
+      - answerText: ' int[] arr = [2, 4, 10];'
         isCorrect: 0
-      - answerText: numArray
+      - answerText: int[] arr = (2, 4, 10);
+        isCorrect: 0
+      - answerText: int[] arr = {2, 4, 10};
         isCorrect: 1
-      - answerText: i < 6; i++
+      - answerText: int arr = {2, 4, 10};
         isCorrect: 0
-      - answerText: '{2, 4, 7, 3, 4, 2}'
-        isCorrect: 0
-  - name: Round 4
-    timeLimitInSeconds: 30
-    pointsAddedForCorrectAnswer: 5
-    questions:
-    - questionText: Do pineapples belong on pizza?
-      evaluationText: 
+    - questionText: "What is the output of the following: String str1 = \u201CHello\u201D;
+        String str2 = \u201CWorld\u201D; System.out.print(str1.concat(str1));"
+      evaluationText: "This code outputs the concatenation of str1 with itself, thus
+        yielding \u201CHelloHello\u201D"
       answers:
-      - answerText: Yes
+      - answerText: HelloWorld
         isCorrect: 0
-      - answerText: No
+      - answerText: HelloHello
         isCorrect: 1
+      - answerText: Hello
+        isCorrect: 0
+      - answerText: World
+        isCorrect: 0
+    - questionText: 'What is the output of the following: int num = 100; System.out.print(num++);'
+      evaluationText: variable++ increments variable AFTER the line, thus when the
+        print function is called, num is outputted as 100, then added 1 after.
+      answers:
+      - answerText: 101
+        isCorrect: 0
+      - answerText: 100
+        isCorrect: 1
+      - answerText: 99
+        isCorrect: 0
+      - answerText: Error
+        isCorrect: 0
+    - questionText: Java is a _____ programming language.
+      evaluationText: Java is both procedural and object-oriented as it is a hybrid
+        language that supports both types of programming.
+      answers:
+      - answerText: Procedural and object-oriented
+        isCorrect: 1
+      - answerText: Functional
+        isCorrect: 0
+      - answerText: Scripting
+        isCorrect: 0
+      - answerText: Object-oriented
+        isCorrect: 0
+    - questionText: x and y are two integers, what is the correct way of casting
+        an int into a float.
+      evaluationText: float z = (float) x / y; is correct as to cast an int into
+        a float (float) is to be added next to an integer variable or calculation
+        of integer variables.
+      answers:
+      - answerText: float z = x / y;
+        isCorrect: 0
+      - answerText: int z = x / y
+        isCorrect: 0
+      - answerText: (float) z = x / y;
+        isCorrect: 0
+      - answerText: float z = (float) x / y;
+        isCorrect: 1
+    - questionText: What is the correct way of declaring a variable?
+      evaluationText: type variablename = value; is correct as this specifies the
+        variable type, assigns a name to the variable and assigns a value to  the
+        variable
+      answers:
+      - answerText: varname = value;
+        isCorrect: 0
+      - answerText: type varname = value;
+        isCorrect: 1
+      - answerText: type = value;
+        isCorrect: 0
+      - answerText: type varname value;
+        isCorrect: 0
+    - questionText: How many bits are present in an int data type in Java?
+      evaluationText: "Java's integer data type is a 32-bit signed two\u2019s complement
+        integer."
+      answers:
+      - answerText: 32 bits
+        isCorrect: 1
+      - answerText: 16 bits
+        isCorrect: 0
+      - answerText: 4 bits
+        isCorrect: 0
+      - answerText: 64 bits
+        isCorrect: 0
+    - questionText: In order for a function to be usable globally, what modifier
+        should be assigned to the function?
+      evaluationText: Public allows the usage of the function outside of the class,
+        outside of the package, and outside of its subclass, globally.
+      answers:
+      - answerText: No modifier
+        isCorrect: 0
+      - answerText: Public
+        isCorrect: 1
+      - answerText: Private
+        isCorrect: 0
+      - answerText: Protected
+        isCorrect: 0
   incorrectQuestions: []
 --- !u!4 &821220461
 Transform:

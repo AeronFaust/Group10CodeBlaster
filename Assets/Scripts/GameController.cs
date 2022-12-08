@@ -82,11 +82,16 @@ public class GameController : MonoBehaviour {
     {
         if (isCorrect) 
         {
-            playerScore += currentRoundData.pointsAddedForCorrectAnswer;
+            if (Mathf.Round (timeRemaining) > 20)
+                playerScore += currentRoundData.pointsAddedForCorrectAnswer;
+            else if (Mathf.Round (timeRemaining) < 5)
+                playerScore += 5;
+            else
+                playerScore += (int)Mathf.Round(currentRoundData.pointsAddedForCorrectAnswer - ((25 - Mathf.Round(timeRemaining))/5));
             scoreDisplayText.text = "Score: " + playerScore.ToString();
         } else {
             QuestionData questionData = questionPool [questionIndex]; //get current question
-            evalText = evalText + questionData.evaluationText + "\n";
+            evalText = evalText + questionData.evaluationText + "\n\n";
         }
 
         if (questionPool.Length > questionIndex + 1) {
@@ -110,6 +115,7 @@ public class GameController : MonoBehaviour {
 
         questionDisplay.SetActive (false);
         evaluationText.text = evalText;
+        PersistentData.Instance.SetScore(playerScore);
         roundEndDisplay.SetActive (true);
     }
 
@@ -160,7 +166,7 @@ public class GameController : MonoBehaviour {
 
         }
     }
-
+    
     void UpdateCurrentLevelDisplay()
     {
         levelDisplayText.text = "Level: " + (dataController.getRoundIndex() + 1);

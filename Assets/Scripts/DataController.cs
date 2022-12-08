@@ -24,7 +24,7 @@ public class DataController : MonoBehaviour
 
     public int incrementRound()
     {
-        if(roundIndex < allRoundData.Length)
+        if(roundIndex < (allRoundData.Length - 1))
         {
             roundIndex++;
             return roundIndex;
