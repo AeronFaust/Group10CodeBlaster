@@ -185,7 +185,7 @@ MonoBehaviour:
       - answerText: 7
         isCorrect: 0
     - questionText: A valid statement to declare and initialize an array _____
-      evaluationText: int[] arr = {2, 4, 10}; \n int[] declares the array arr, and
+      evaluationText: int[] arr = {2, 4, 10}; int[ ] declares the array arr, and
         values to be inputted are to be enclosed in curly brackets.
       answers:
       - answerText: ' int[] arr = [2, 4, 10];'

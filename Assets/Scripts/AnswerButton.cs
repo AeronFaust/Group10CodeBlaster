@@ -6,8 +6,8 @@ using UnityEngine.Audio;
 public class AnswerButton : MonoBehaviour {
 
     public Text answerText;
-    public AudioSource audioSource;
-    public AudioClip[] audioClipArray;
+    //public AudioSource audioSource;
+    //public AudioClip[] audioClipArray;
     
     private AnswerData answerData;
     private GameController gameController;
@@ -27,10 +27,10 @@ public class AnswerButton : MonoBehaviour {
 
     public void HandleClick()
     {
-        PlayAudio();
+        //PlayAudio();
         gameController.AnswerButtonClicked (answerData.isCorrect);
     }
-    
+    /*
     public void PlayAudio()
     {
 	    audioSource.PlayOneShot(RandomClip());
@@ -39,5 +39,5 @@ public class AnswerButton : MonoBehaviour {
     AudioClip RandomClip()
     {
 	    return audioClipArray[Random.Range(0, audioClipArray.Length)];
-    }
+    }*/
 }
