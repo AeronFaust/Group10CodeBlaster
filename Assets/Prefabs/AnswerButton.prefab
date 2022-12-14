@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.0000019073486}
-  m_SizeDelta: {x: 235.6788, y: 80.4525}
+  m_AnchoredPosition: {x: 4, y: -140}
+  m_SizeDelta: {x: 526.4937, y: 334.4129}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2970671648292511259
 CanvasRenderer:
@@ -68,11 +68,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 585188cdc4600544eb408bee749e4b3a, type: 3}
-    m_FontSize: 32
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 60
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -122,7 +122,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1218.75, y: 668.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2170616970476328815
 CanvasRenderer:
@@ -231,14 +231,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   answerText: {fileID: 6769861427922150162}
-  audioSource: {fileID: 3860414323681790669}
-  audioClipArray:
-  - {fileID: 8300000, guid: ebbf07ec1b52a3245ad87d21f0bda13f, type: 3}
-  - {fileID: 8300000, guid: cd88ecbb4f62082419225954e20b1c7f, type: 3}
-  - {fileID: 8300000, guid: 6bcbb8cd92381cb4a85599f4a907432f, type: 3}
-  - {fileID: 8300000, guid: 14bf136526b7f864cb88c66852d39ea7, type: 3}
-  - {fileID: 8300000, guid: 5b90f0aecd3edc645b9b00279a54d5b8, type: 3}
-  - {fileID: 8300000, guid: 83c6df9e030751b4c95a3d1471b5c660, type: 3}
 --- !u!1 &8819181102796685018
 GameObject:
   m_ObjectHideFlags: 0
