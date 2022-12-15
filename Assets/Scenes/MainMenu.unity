@@ -2179,7 +2179,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3925422232946751063, guid: a4d67cf21f947c7419546e80c552dffa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayGame
+      value: DifficultySelector
       objectReference: {fileID: 0}
     - target: {fileID: 3925422232946751063, guid: a4d67cf21f947c7419546e80c552dffa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName

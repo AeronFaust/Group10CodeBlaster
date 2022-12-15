@@ -48,4 +48,9 @@ public class Buttons : MonoBehaviour
     {
         SceneManager.LoadScene("HighScores");
     }
+
+    public void DifficultySelector()
+    {
+        SceneManager.LoadScene("DifficultySelector");
+    }
 }
