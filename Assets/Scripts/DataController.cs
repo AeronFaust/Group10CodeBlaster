@@ -19,23 +19,22 @@ public class DataController : MonoBehaviour
 
     public RoundData GetCurrentRoundData()
     {
-        return allRoundData [0];
+        return allRoundData [roundIndex];
     }
 
-    public int incrementRound()
-    {
-        if(roundIndex < (allRoundData.Length - 1))
-        {
-            roundIndex++;
-            return roundIndex;
-        }
-        return -1; //we'll use this to tell that we are at the end
-        
-    }
-
-    public void resetRound()
+    public void levelOne()
     {
         roundIndex = 0;
+    }
+
+    public void levelTwo()
+    {
+        roundIndex = 1;
+    }
+
+    public void levelThree()
+    {
+        roundIndex = 2;
     }
 
     public int getRoundIndex()
@@ -43,9 +42,5 @@ public class DataController : MonoBehaviour
         return roundIndex;
     }
 
-    // public QuestionData getIncorrectQuestions()
-    // {
-    //     return incorrectQuestions;
-    // }
 
 }

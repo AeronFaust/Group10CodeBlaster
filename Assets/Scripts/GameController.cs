@@ -21,6 +21,7 @@ public class GameController : MonoBehaviour {
     private RoundData currentRoundData;
     private QuestionData[] questionPool;
     private string evalText = "";
+    
 
     private bool isRoundActive;
     private float timeRemaining;
@@ -102,8 +103,7 @@ public class GameController : MonoBehaviour {
             ShowQuestion ();
         } else 
         {
-            //EndRound();
-            Invoke("goToNextRound", 0.25f);
+            EndRound();
         }
 
     }
@@ -111,34 +111,10 @@ public class GameController : MonoBehaviour {
     public void EndRound()
     {
         isRoundActive = false;
-        dataController.resetRound();
-
         questionDisplay.SetActive (false);
         evaluationText.text = evalText;
         PersistentData.Instance.SetScore(playerScore);
         roundEndDisplay.SetActive (true);
-    }
-
-    //go to the next round
-    public void goToNextRound()
-    {
-        int index = dataController.incrementRound();
-        Debug.Log(index);
-        if(index == -1)
-        {
-            EndRound();
-        }
-        else
-        {
-            currentRoundData = dataController.GetCurrentRoundData ();
-            questionPool = currentRoundData.questions;
-            timeRemaining = currentRoundData.timeLimitInSeconds;
-            totalTime = currentRoundData.timeLimitInSeconds;
-            UpdateTimeRemainingDisplay(); 
-            UpdateCurrentLevelDisplay();  
-            ShowQuestion();
-        }
-        
     }
 
     public void ReturnToMenu()
@@ -163,7 +139,6 @@ public class GameController : MonoBehaviour {
             {
                 EndRound();
             }
-
         }
     }
     
