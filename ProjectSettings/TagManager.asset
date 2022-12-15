@@ -10,6 +10,8 @@ TagManager:
   - Projectile
   - ShowWhenPaused
   - ShowWhenResumed
+  - asteroid
+  - character
   layers:
   - Default
   - TransparentFX

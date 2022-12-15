@@ -23,10 +23,10 @@ public class HighScores : MonoBehaviour
         playerName = PersistentData.Instance.GetName();
         playerScore = PersistentData.Instance.GetScore();
 
-        SaveScore();
         ShowHighScores();
     }
- void SaveScore()
+
+    void SaveScore()
     {
         for (int i = 1; i <= NUM_HIGH_SCORES; i++)
         {

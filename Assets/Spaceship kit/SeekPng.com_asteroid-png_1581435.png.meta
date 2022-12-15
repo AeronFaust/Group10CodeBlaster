@@ -1,0 +1,1543 @@
+fileFormatVersion: 2
+guid: 27522ce46b15e9349b7952b89f6f6de5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 899
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a93138b64a82df409e0f31556b867e5
+      internalID: -254109111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 898
+        width: 95
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffe491045e67294fad8d4fa69acb979
+      internalID: -1949580330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 896
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd9137d21fc3174f837a79cfa4ee0de
+      internalID: 2008528359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_3
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 893
+        width: 98
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767b30a429c2654429beef2bb310b291
+      internalID: 1313536480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 893
+        width: 97
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf5725d43fc86c46abb1c50c3707db4
+      internalID: 1087974555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_5
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 892
+        width: 98
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498e5d21033a812448cc3dde26afbea1
+      internalID: -147226814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_6
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 893
+        width: 97
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4348dde6387a3e54cb8866eb5a7f5ec8
+      internalID: 1821717566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_7
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 892
+        width: 94
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b2c5e8801059448adeda89100ea51e
+      internalID: 1327507183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 761
+        width: 91
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bf41ff8299f9b4a9afa52da3c1f4f5
+      internalID: -1288416455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_9
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 761
+        width: 92
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61740a219aa87a543a91196b0d5dffdc
+      internalID: 299090328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_10
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 762
+        width: 93
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7825069e26a2b149a709ad031f289a2
+      internalID: -1145346877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_11
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 764
+        width: 92
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9c3951e5143cc44b2e2e01f8ce8a58
+      internalID: -1781427675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_12
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 767
+        width: 91
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0326dfa97af19e44cbd4feab20eaebc8
+      internalID: 276288617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_13
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 771
+        width: 89
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344b7efedcfa7c34f9bb82609c79c8cb
+      internalID: 1442278608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_14
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 775
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31104d21baac12d4e8b7bac5f0308eae
+      internalID: 1466888757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_15
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 775
+        width: 89
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc46bad73018d34f83dfe82059c7006
+      internalID: 521701469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 644
+        width: 92
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fecacfcd978604fad26d08ac89e8ff
+      internalID: -21227113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_17
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 642
+        width: 96
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b5b4dbfd4821e4896f6741e0fa7845
+      internalID: -1929729601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 641
+        width: 98
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a463fbedb94ceab4aafed97c0da9305b
+      internalID: 913245875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 639
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a688449ca02ed640ae7bab87c6f1b34
+      internalID: 1325230404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_20
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 639
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce02ef068cc4e64bbc6106868cda9cd
+      internalID: -660096804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_21
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 640
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56195a3bb85bb404589953a224ae8c7a
+      internalID: -1988895559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_22
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 639
+        width: 93
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0916bf90e1a9444b45d79e54d8ebe2
+      internalID: -444083179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_23
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 641
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c522372e03b9854e81b6bb5bcbd3f4e
+      internalID: 1064685912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 514
+        width: 89
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f315049118bff114598868d5a796c552
+      internalID: -56649879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_25
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 513
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79b6136de7e66448858d13541d8fd0e
+      internalID: -1049322891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_26
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 513
+        width: 95
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2abd25896d222b489c13e39e86939c6
+      internalID: -1465531973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_27
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 514
+        width: 97
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c95f871b2e1ea469af6ec6f3be0ac0
+      internalID: 400496727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_28
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 516
+        width: 97
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0116d0b1e91744f8799652809ea42a
+      internalID: 84906461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_29
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 517
+        width: 94
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fd238ef6c64634889eb6fc4d922215
+      internalID: -1373482742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_30
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 517
+        width: 90
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3e2f79b9a5c4240997c24338a77f85
+      internalID: 85534620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_31
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 515
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35e90ab4ddb53a488a5cadc0ce2a6cd
+      internalID: -694321552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_32
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 385
+        width: 84
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08144adfe8d5ad045b0da4d75864920a
+      internalID: 293627170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_33
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 383
+        width: 85
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878430c4d3691d246bcafdd1e51ab4ea
+      internalID: -1686901963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_34
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 384
+        width: 87
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6088a766b5b5e2044898b96f54016989
+      internalID: -454524972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_35
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 382
+        width: 89
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e550d41b351b2b438f4cbd7c0bca3c0
+      internalID: 926597600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_36
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 380
+        width: 89
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6068cf59ce79a2a4eb258397dd54edfd
+      internalID: 234284137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_37
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 378
+        width: 89
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ae489e3c92f60458c5e7ff1256a6b8
+      internalID: 1189314311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_38
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 379
+        width: 90
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4ac05a1d5628c4c816ff277a8a1a0a
+      internalID: 1825301736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_39
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 380
+        width: 91
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadba8c66a14e6f409595060cb4104d2
+      internalID: 74384865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 255
+        width: 91
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7efacb86bac3ab479e38da0625e2772
+      internalID: 739126369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_41
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 255
+        width: 89
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fbe437682c2b440b94f742d66c07d0
+      internalID: 1576298007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_42
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 253
+        width: 88
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0f9ad68dd149247b8657686cb3b201
+      internalID: -84839696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_43
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 252
+        width: 87
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120e3b3708c850143aa3ac5a3d05b945
+      internalID: 1461951281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_44
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 252
+        width: 86
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901774ad63f8a1a48a8fe3918fab19c9
+      internalID: -272263429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_45
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 252
+        width: 82
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45c047b20b1c574ea9bb5714fc56898
+      internalID: -171866829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_46
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 253
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a804d8331f3b3894a98e1b5a489fe0d7
+      internalID: 149818861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_47
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 254
+        width: 86
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c23ea47d24b9a40b9a78a1d22ce31d
+      internalID: -585429470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_48
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 126
+        width: 89
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44b44aab9df6eb4cb391a0d21aa2381
+      internalID: 334427625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_49
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 127
+        width: 92
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d487c7834157e47ae03546a989fa05
+      internalID: -873791454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_50
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 128
+        width: 96
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad729f1587805741b7ad7f303e867f3
+      internalID: 406333653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_51
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 129
+        width: 99
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87af941edd1e4944b5d23179a91bb29
+      internalID: 684582417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_52
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 130
+        width: 102
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7faae6c6e33eb744b816f12c3dd65863
+      internalID: 826008737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_53
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 132
+        width: 103
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f738ec0efd952ac4eb510660dde5e610
+      internalID: -551373241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_54
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 134
+        width: 102
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670f847d4ab8ecd49a8dab4adaf285d9
+      internalID: 1502812370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_55
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 131
+        width: 100
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52b3f810b72c0c4eb2d37ee7d57d0ff
+      internalID: 1224174190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7613488702435c4e8c983c1dae50054
+      internalID: -31538811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_57
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 96
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93897a0a5b047a41b0a719146756f2f
+      internalID: 817964701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_58
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0e8c5fb0e31fe469bc1d9ef089676b
+      internalID: 285128587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_59
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2
+        width: 91
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837d19e050d3dd847903fc58537ad3c1
+      internalID: -2081057181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_60
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 4
+        width: 91
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5fc9ace689e904b987fb606d0b69b5
+      internalID: 1336330205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_61
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 5
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6349eb59dbbb1d04c973967b8401385a
+      internalID: 1370437175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_62
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 3
+        width: 86
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d158ec5907b4043aeeb24051532056
+      internalID: -1344331069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_asteroid-png_1581435_63
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1
+        width: 84
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c229960b2f508e4da18882fe2252b35
+      internalID: 110511218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SeekPng.com_asteroid-png_1581435_51: 684582417
+      SeekPng.com_asteroid-png_1581435_3: 1313536480
+      SeekPng.com_asteroid-png_1581435_42: -84839696
+      SeekPng.com_asteroid-png_1581435_35: 926597600
+      SeekPng.com_asteroid-png_1581435_56: -31538811
+      SeekPng.com_asteroid-png_1581435_25: -1049322891
+      SeekPng.com_asteroid-png_1581435_34: -454524972
+      SeekPng.com_asteroid-png_1581435_31: -694321552
+      SeekPng.com_asteroid-png_1581435_38: 1825301736
+      SeekPng.com_asteroid-png_1581435_5: -147226814
+      SeekPng.com_asteroid-png_1581435_8: -1288416455
+      SeekPng.com_asteroid-png_1581435_29: -1373482742
+      SeekPng.com_asteroid-png_1581435_12: 276288617
+      SeekPng.com_asteroid-png_1581435_60: 1336330205
+      SeekPng.com_asteroid-png_1581435_26: -1465531973
+      SeekPng.com_asteroid-png_1581435_61: 1370437175
+      SeekPng.com_asteroid-png_1581435_45: -171866829
+      SeekPng.com_asteroid-png_1581435_33: -1686901963
+      SeekPng.com_asteroid-png_1581435_50: 406333653
+      SeekPng.com_asteroid-png_1581435_30: 85534620
+      SeekPng.com_asteroid-png_1581435_39: 74384865
+      SeekPng.com_asteroid-png_1581435_11: -1781427675
+      SeekPng.com_asteroid-png_1581435_43: 1461951281
+      SeekPng.com_asteroid-png_1581435_59: -2081057181
+      SeekPng.com_asteroid-png_1581435_9: 299090328
+      SeekPng.com_asteroid-png_1581435_0: -254109111
+      SeekPng.com_asteroid-png_1581435_37: 1189314311
+      SeekPng.com_asteroid-png_1581435_62: -1344331069
+      SeekPng.com_asteroid-png_1581435_24: -56649879
+      SeekPng.com_asteroid-png_1581435_28: 84906461
+      SeekPng.com_asteroid-png_1581435_6: 1821717566
+      SeekPng.com_asteroid-png_1581435_22: -444083179
+      SeekPng.com_asteroid-png_1581435_14: 1466888757
+      SeekPng.com_asteroid-png_1581435_52: 826008737
+      SeekPng.com_asteroid-png_1581435_19: 1325230404
+      SeekPng.com_asteroid-png_1581435_17: -1929729601
+      SeekPng.com_asteroid-png_1581435_23: 1064685912
+      SeekPng.com_asteroid-png_1581435_40: 739126369
+      SeekPng.com_asteroid-png_1581435_36: 234284137
+      SeekPng.com_asteroid-png_1581435_10: -1145346877
+      SeekPng.com_asteroid-png_1581435_7: 1327507183
+      SeekPng.com_asteroid-png_1581435_55: 1224174190
+      SeekPng.com_asteroid-png_1581435_2: 2008528359
+      SeekPng.com_asteroid-png_1581435_46: 149818861
+      SeekPng.com_asteroid-png_1581435_49: -873791454
+      SeekPng.com_asteroid-png_1581435_18: 913245875
+      SeekPng.com_asteroid-png_1581435_57: 817964701
+      SeekPng.com_asteroid-png_1581435_20: -660096804
+      SeekPng.com_asteroid-png_1581435_44: -272263429
+      SeekPng.com_asteroid-png_1581435_47: -585429470
+      SeekPng.com_asteroid-png_1581435_21: -1988895559
+      SeekPng.com_asteroid-png_1581435_1: -1949580330
+      SeekPng.com_asteroid-png_1581435_32: 293627170
+      SeekPng.com_asteroid-png_1581435_16: -21227113
+      SeekPng.com_asteroid-png_1581435_27: 400496727
+      SeekPng.com_asteroid-png_1581435_48: 334427625
+      SeekPng.com_asteroid-png_1581435_15: 521701469
+      SeekPng.com_asteroid-png_1581435_41: 1576298007
+      SeekPng.com_asteroid-png_1581435_54: 1502812370
+      SeekPng.com_asteroid-png_1581435_58: 285128587
+      SeekPng.com_asteroid-png_1581435_13: 1442278608
+      SeekPng.com_asteroid-png_1581435_53: -551373241
+      SeekPng.com_asteroid-png_1581435_4: 1087974555
+      SeekPng.com_asteroid-png_1581435_63: 110511218
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,10 +1,11 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Projectile : MonoBehaviour {
 	public GameObject shoot_effect;
 	public GameObject hit_effect;
 	public GameObject firing_ship;
+	public float Speed = 30f;
 	
 	// Use this for initialization
 	void Start () {
@@ -15,12 +16,12 @@ public class Projectile : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		transform.position += transform.right * Time.deltaTime * Speed;
 	}
 	
 	
-	void OnTriggerEnter2D(Collider2D col) {
-
+	void OnTriggerEnter2D(Collider2D col) 
+	{
 		//Don't want to collide with the ship that's shooting this thing, nor another projectile.
 		if (col.gameObject != firing_ship && col.gameObject.tag != "Projectile") {
 			Instantiate(hit_effect, transform.position, Quaternion.identity);

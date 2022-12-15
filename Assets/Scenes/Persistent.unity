@@ -414,7 +414,7 @@ MonoBehaviour:
         isCorrect: 1
       - answerText: x
         isCorrect: 0
-      - answerText: x
+      - answerText: 7
         isCorrect: 0
       - answerText: '"x=7"'
         isCorrect: 0
@@ -543,7 +543,7 @@ MonoBehaviour:
         isCorrect: 0
       - answerText: 9
         isCorrect: 0
-    - questionText: "IGiven this array: char[ ] array = { \u2018W\u2019, \u2018o\u2019,
+    - questionText: "Given this array: char[ ] array = { \u2018W\u2019, \u2018o\u2019,
         \u2018r\u2019, \u2018l\u2019, \u2018d\u2019, \u2018.\u2019}; What is the
         value of string a if: String a = new String(array); "
       evaluationText: 10) A string in java allows you to construct a string with

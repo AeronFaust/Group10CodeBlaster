@@ -23,8 +23,6 @@ public class Buttons : MonoBehaviour
 
     public void PlayGame()
     {
-        string name = PlayerNameInput.text;
-        PersistentData.Instance.SetName(name);
         SceneManager.LoadScene("Game");
         Destroy(GameObject.Find("BGM"));
     }
@@ -46,11 +44,18 @@ public class Buttons : MonoBehaviour
 
     public void HighScores()
     {
+        SceneManager.LoadScene("HighScoresView");
+    }
+    
+    public void HighScoresDone()
+    {
         SceneManager.LoadScene("HighScores");
     }
 
     public void DifficultySelector()
     {
+        string name = PlayerNameInput.text;
+        PersistentData.Instance.SetName(name);
         SceneManager.LoadScene("DifficultySelector");
     }
 }

@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
+using UnityEngine.Audio;
 
 public class GameController : MonoBehaviour {
 
@@ -30,6 +31,12 @@ public class GameController : MonoBehaviour {
     private int playerScore;
     private List<GameObject> answerButtonGameObjects = new List<GameObject>();
 
+    public GameObject reference;
+    public GameObject lazer;
+    public Transform SpawnPoint;
+    spawnAsteroid spawner;
+    public AudioSource audioSource;   
+    
     // Use this for initialization
     void Start () 
     {
@@ -47,6 +54,8 @@ public class GameController : MonoBehaviour {
         ShowQuestion ();
         isRoundActive = true;
 
+        spawner = (spawnAsteroid) reference.GetComponent(typeof(spawnAsteroid));   
+        spawner.Spawn();
     }
 
     private void ShowQuestion()
@@ -83,6 +92,7 @@ public class GameController : MonoBehaviour {
     {
         if (isCorrect) 
         {
+            Shoot();
             if (Mathf.Round (timeRemaining) > 20)
                 playerScore += currentRoundData.pointsAddedForCorrectAnswer;
             else if (Mathf.Round (timeRemaining) < 5)
@@ -90,7 +100,10 @@ public class GameController : MonoBehaviour {
             else
                 playerScore += (int)Mathf.Round(currentRoundData.pointsAddedForCorrectAnswer - ((25 - Mathf.Round(timeRemaining))/5));
             scoreDisplayText.text = "Score: " + playerScore.ToString();
-        } else {
+        } else 
+        {
+            GameObject[] failed = GameObject.FindGameObjectsWithTag("asteroid");
+            foreach(GameObject go in failed) Destroy(go);
             QuestionData questionData = questionPool [questionIndex]; //get current question
             evalText = evalText + questionData.evaluationText + "\n\n";
         }
@@ -101,6 +114,7 @@ public class GameController : MonoBehaviour {
             timeRemaining = totalTime;
             timeRemainingDisplayText.text = "Time: " + timeRemaining.ToString();
             ShowQuestion ();
+            spawner.Spawn();
         } else 
         {
             EndRound();
@@ -145,5 +159,11 @@ public class GameController : MonoBehaviour {
     void UpdateCurrentLevelDisplay()
     {
         levelDisplayText.text = "Level: " + (dataController.getRoundIndex() + 1);
+    }
+
+    void Shoot()
+    {
+        Instantiate(lazer, SpawnPoint.position, transform.rotation);
+        audioSource.Play();
     }
 }

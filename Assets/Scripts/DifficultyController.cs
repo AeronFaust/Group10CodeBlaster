@@ -16,16 +16,19 @@ public class DifficultyController : MonoBehaviour
     {
         dataController.levelOne();
         SceneManager.LoadScene ("Game");
+        Destroy(GameObject.Find("BGM"));
     }
 
     public void setLevel2()
     {
         dataController.levelTwo();
         SceneManager.LoadScene ("Game");
+        Destroy(GameObject.Find("BGM"));
     }
     public void setLevel3()
     {
         dataController.levelThree();
         SceneManager.LoadScene ("Game");
+        Destroy(GameObject.Find("BGM"));
     }
 }
